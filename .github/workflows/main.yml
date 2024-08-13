@@ -7,14 +7,14 @@ on:
 jobs:
   first_job:
         runs_on:
-          ubunte-latest
+            ubunte-latest
         steps:
-         - name: welcome to first lab
-           run: echo "my frist github actions"
+            - name: welcome to first lab
+              run: echo "my frist github actions"
         
-         - name: list files
-           run: ls
+            - name: list files
+              run: ls
          
-         - name: read file
-          run: cat README.md
+            - name: read file
+            run: cat README.md
           
