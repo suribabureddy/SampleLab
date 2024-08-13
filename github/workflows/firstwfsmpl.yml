@@ -1,0 +1,10 @@
+name:First Github Actions workflow
+
+on:push
+
+jobs:
+    first_job:
+        runs_on:ubunte-latest
+        steps:
+        - name:welcome
+           run: echo "my frist github actions"
